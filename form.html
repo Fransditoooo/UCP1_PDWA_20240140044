@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">        
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">    
+        <title>Tech Community</title>       
+    </head>
+    <body>
+
+    <h1>Tech Community</h1>
+    <p>Selamat Datang di Tech Community</p>
+    <p>Fungsi dari Tech Community itu tempat sharing anak-anak IT atau programmer <p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Daftar</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="style.css">Style</a>
+    </nav>
+
+    <br>
+
+    <h2>Form Pendaftaran</h2>
+    <form id="formData">
+        <input type="text" id="nama" placeholder="Nama" required><br><br>
+        <input type="email" id="email" placeholder="Email" required><br><br>
+
+        <select id="minat">
+            <option value="Web Developer">Web Developer</option>
+            <option value="Mobile Developer">Mobile Developer</option>
+            <option value="UI/UX">UI/UX</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <br>
+    <div id="hasil"></div>
+
+    <br>
+    <button onclick="window.location.href='index.html'">Kembali</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

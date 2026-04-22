@@ -1,20 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">    
-    <title>Tech Community</title>
-</head>
-<body>
-    <h1>Tech Community</h1>
-    <p>Selamat Datang di Tech Community</p>
-    <p>Fungsi dari Tech Community itu tempat sharing anak-anak IT atau programmer <p>
-    <button><a href="https://www.techcommunity.com/">Tech Community</a></button>
-    <ul>
-        <li></li>
-    </ul>
-    <h2></h2>
-    <p><a href="mailto:info@techcommunity.com">info@techcommunity.com</a>.</p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">    
+        <title>Tech Community</title>
+    </head>
+    <body>
+        <h1>Tech Community</h1>
+        <p>Selamat Datang di Tech Community</p>
+        <p>Fungsi dari Tech Community itu tempat sharing anak-anak IT atau programmer <p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Daftar</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <br>
+
+    <h2>Data Anggota</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Email</th>
+                <th>Minat</th>
+            </tr>
+        </thead>
+        <tbody id="dataTable">
+        </tbody>
+    </table>
+
+    <br>
+
+    <button onclick="window.location.href='form.html'">Click Disini</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
+      
